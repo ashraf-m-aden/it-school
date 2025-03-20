@@ -6,34 +6,34 @@
         <div class="d-table-cell">
           <div class="container">
             <h2>Nouveau cours</h2>
-            <div class="bar"></div>
+            <div class="bar" />
           </div>
         </div>
       </div>
 
       <div class="shape1">
-        <img src="../../assets/img/shape1.png" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../assets/img/shape1.png" alt="IT+ formation cours informatique djibouti">
       </div>
       <div class="shape2 rotateme">
-        <img src="../../assets/img/shape2.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../assets/img/shape2.svg" alt="IT+ formation cours informatique djibouti">
       </div>
       <div class="shape3">
-        <img src="../../assets/img/shape3.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../assets/img/shape3.svg" alt="IT+ formation cours informatique djibouti">
       </div>
       <div class="shape4">
-        <img src="../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti">
       </div>
       <div class="shape5">
-        <img src="../../assets/img/shape5.png" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../assets/img/shape5.png" alt="IT+ formation cours informatique djibouti">
       </div>
       <div class="shape6 rotateme">
-        <img src="../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti">
       </div>
       <div class="shape7">
-        <img src="../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti">
       </div>
       <div class="shape8 rotateme">
-        <img src="../../assets/img/shape2.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../assets/img/shape2.svg" alt="IT+ formation cours informatique djibouti">
       </div>
     </div>
     <!-- End Page Title -->
@@ -47,28 +47,29 @@
 
             <div class="mb-3">
               <label for="" class="form-label">Nom</label>
-              <input type="text" class="form-control" v-model="newFormation.courseName" />
+              <input v-model="newFormation.courseName" type="text" class="form-control">
             </div>
             <div class="mb-3">
               <label for="" class="form-label">Prix</label>
-              <input type="text" class="form-control" v-model="newFormation.price" />
+              <input v-model="newFormation.price" type="text" class="form-control">
               <label for="" class="form-label">Mois</label>
 
-              <input type="text" class="form-control" v-model="newFormation.numberOfMonth" />
+              <input v-model="newFormation.numberOfMonth" type="text" class="form-control">
             </div>
             <div class="mb-3">
               <label for="a" class="form-label">Description</label>
-              <textarea type="text" cols="30" rows="10" class="form-control-plaintext"
-                v-model="newFormation.description" id="a"></textarea>
+              <textarea
+id="a" v-model="newFormation.description" type="text" cols="30" rows="10"
+                class="form-control-plaintext" />
 
             </div>
             <div class="mb-3">
               <label for="" class="form-label">Date de début</label>
-              <input type="date" name="" id="" class="form-control" v-model="newFormation.startDate">
+              <input id="" v-model="newFormation.startDate" type="date" name="" class="form-control">
             </div>
 
             <button v-if="isLoading" class="btn btn-primary" type="button" disabled>
-              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" />
               Loading...
             </button>
 
@@ -82,10 +83,12 @@
         </div>
       </div>
 
-      <div class="shape8 rotateme"><img src="../../assets/img/shape2.svg"
+      <div class="shape8 rotateme"><img
+src="../../assets/img/shape2.svg"
           alt="IT+ formation cours informatique djibouti">
       </div>
-      <div class="shape2 rotateme"><img src="../../assets/img/shape2.svg"
+      <div class="shape2 rotateme"><img
+src="../../assets/img/shape2.svg"
           alt="IT+ formation cours informatique djibouti">
       </div>
       <div class="shape7"><img src="../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti"></div>
@@ -95,7 +98,7 @@
       <div class="d-table-cell">
         <div class="container">
           <h2>Liste des formations</h2>
-          <div class="bar"></div>
+          <div class="bar" />
         </div>
       </div>
     </div>
@@ -122,36 +125,39 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr :class="formation.enabled ? 'table-success' : 'table-warning'"
-                    v-for="(formation, index) in allFormations" :key="index">
+                  <tr
+v-for="(formation, index) in allFormations" :key="index"
+                    :class="formation.enabled ? 'table-success' : 'table-warning'">
                     <td scope="row">
-                      <input type="text" name="" v-model="formation.courseName" id="">
+                      <input id="" v-model="formation.courseName" type="text" name="">
                     </td>
                     <td>
-                      <input type="text" name="" v-model="formation.price" id="">
+                      <input id="" v-model="formation.price" type="text" name="">
                     </td>
                     <td>
-                      <input type="text" name="" v-model="formation.numberOfMonth" id="">
+                      <input id="" v-model="formation.numberOfMonth" type="text" name="">
                     </td>
                     <td>
 
-                      {{ formatDate(formation.startDate ) }}
-                      <input type="date" v-model="formation.startDate">
+                      {{ formatDate(formation.startDate) }}
+                      <input v-model="formation.startDate" type="date">
                     </td>
                     <td>
-                      <input type="text" name="" v-model="formation.maxStudents" id="">
+                      <input id="" v-model="formation.maxStudents" type="text" name="">
                     </td>
                     <td>
-                      <textarea type="text" cols="30" rows="10" class=" form-control-plaintext"
-                        v-model="formation.description" id=""></textarea>
+                      <textarea
+id="" v-model="formation.description" type="text" cols="30" rows="10"
+                        class=" form-control-plaintext" />
                     </td>
                     <td>
 
 
                       <div class="d-flex gap-3">
-                        <div v-for="option in [true, false]" class="form-check">
-                          <input class="form-check-input" type="radio" :name="formation.courseName" :value="option"
-                            v-model="formation.inscription" :id="formation.courseName" />
+                        <div v-for="(option, i) in [true,false]" :key="i" class="form-check">
+                          <input
+:id="formation.courseName" v-model="formation.inscription" class="form-check-input"
+                            type="radio" :name="formation.courseName" :value="option">
                           <label class="form-check-label" :for="formation.courseName">{{ option ? "Demarré" : "Aretté"
                           }}</label>
                         </div>
@@ -161,8 +167,9 @@
                     </td>
                     <td>
                       <ul class="list-group">
-                        <li v-for="(student, index) in formation.students" :key="index" class="list-group-item">
-                          <button class="bg-danger text-light small float-end"
+                        <li v-for="(student, ii) in formation.students" :key="ii" class="list-group-item">
+                          <button
+class="bg-danger text-light small float-end"
                             @click="delStudent(formation, student)">Del</button>
                           Nom:{{ student.name }}
                           <br>
@@ -175,8 +182,10 @@
                     <td>
 
                       <ul class="list-group">
-                        <li v-for="(student, index) in formation.interestedStudents" :key="index" class="list-group-item">
-                        
+                        <li
+v-for="(student, iii) in formation.interestedStudents" :key="iii"
+                          class="list-group-item">
+
                           Nom:{{ student.name }}
                           <br>
                           Email:{{ student.email }}
@@ -187,17 +196,17 @@
                     </td>
                     <td>
                       <div class="d-grid gap-2">
-                        <button type="button" name="" id="" class="btn btn-primary" @click="updateFormation(formation)">
+                        <button id="" type="button" name="" class="btn btn-primary" @click="updateFormation(formation)">
                           Mettre à jour
                         </button>
                       </div>
-                      <div class="d-grid gap-2" v-if="formation.enabled">
-                        <button type="button" name="" id="" class="btn btn-danger" @click="toggleFormation(formation)">
+                      <div v-if="formation.enabled" class="d-grid gap-2">
+                        <button id="" type="button" name="" class="btn btn-danger" @click="toggleFormation(formation)">
                           Desactiver
                         </button>
                       </div>
-                      <div class="d-grid gap-2" v-else>
-                        <button type="button" name="" id="" class="btn btn-success" @click="toggleFormation(formation)">
+                      <div v-else class="d-grid gap-2">
+                        <button id="" type="button" name="" class="btn btn-success" @click="toggleFormation(formation)">
                           Activer
                         </button>
                       </div>
@@ -215,10 +224,12 @@
         </div>
       </div>
 
-      <div class="shape8 rotateme"><img src="../../assets/img/shape2.svg"
+      <div class="shape8 rotateme"><img
+src="../../assets/img/shape2.svg"
           alt="IT+ formation cours informatique djibouti">
       </div>
-      <div class="shape2 rotateme"><img src="../../assets/img/shape2.svg"
+      <div class="shape2 rotateme"><img
+src="../../assets/img/shape2.svg"
           alt="IT+ formation cours informatique djibouti">
       </div>
       <div class="shape7"><img src="../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti"></div>
@@ -229,13 +240,13 @@
 </template>
 <script setup lang="ts">
 import { computed, ref, } from 'vue';
-import { FormationType } from '../../types/formation';
-import { Timestamp } from "firebase/firestore";
 
 
-import { useToast } from 'vue-toastification'
-import { formationStore } from '../../store/formations';
-import type { UserType } from '../../types/user';
+import { FormationType } from '~/types/formation';
+import type { Timestamp } from 'firebase/firestore';
+import {useToast} from 'vue-toast-notification';
+import type { UserType } from '~/types/user';
+
 const store = formationStore()
 const toast = useToast()
 const isLoading = ref(false)
@@ -313,7 +324,7 @@ const isDisabled = computed(() => {
 
 const formatDate = (date: Date | Timestamp) => {
 
-return new Date(date.toString()).toLocaleDateString()
+  return new Date(date.toString()).toLocaleDateString()
 
 }
 </script>

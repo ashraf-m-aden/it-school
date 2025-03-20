@@ -6,7 +6,7 @@
         <div class="d-table-cell">
           <div class="container">
             <h2>Inscrivez-vous à nos formations disponibles</h2>
-            <div class="bar"></div>
+            <div class="bar"/>
           </div>
         </div>
       </div>
@@ -15,49 +15,49 @@
         <img
           src="../../assets/img/shape1.png"
           alt="IT+ formation cours informatique djibouti"
-        />
+        >
       </div>
       <div class="shape2 rotateme">
         <img
           src="../../assets/img/shape2.svg"
           alt="IT+ formation cours informatique djibouti"
-        />
+        >
       </div>
       <div class="shape3">
         <img
           src="../../assets/img/shape3.svg"
           alt="IT+ formation cours informatique djibouti"
-        />
+        >
       </div>
       <div class="shape4">
         <img
           src="../../assets/img/shape4.svg"
           alt="IT+ formation cours informatique djibouti"
-        />
+        >
       </div>
       <div class="shape5">
         <img
           src="../../assets/img/shape5.png"
           alt="IT+ formation cours informatique djibouti"
-        />
+        >
       </div>
       <div class="shape6 rotateme">
         <img
           src="../../assets/img/shape4.svg"
           alt="IT+ formation cours informatique djibouti"
-        />
+        >
       </div>
       <div class="shape7">
         <img
           src="../../assets/img/shape4.svg"
           alt="IT+ formation cours informatique djibouti"
-        />
+        >
       </div>
       <div class="shape8 rotateme">
         <img
           src="../../assets/img/shape2.svg"
           alt="IT+ formation cours informatique djibouti"
-        />
+        >
       </div>
     </div>
     <!-- End Page Title -->
@@ -66,9 +66,9 @@
       <div class="container">
         <div class="row">
           <div
-            class="col-lg-4 col-md-6 col-sm-6 m-auto"
             v-for="(formation, index) in allFormations"
             :key="index"
+            class="col-lg-4 col-md-6 col-sm-6 m-auto"
           >
             <div class="pricing-table">
               <div class="pricing-header">
@@ -77,17 +77,15 @@
 
               <div class="price">
                 <span>10000<sup>Fdj</sup> <span>/Mois</span></span>
-                <br />
+                <br >
                 <span>Pendant {{ formation?.numberOfMonth }} mois </span>
               </div>
 
-              <div class="price">
-          
-              </div>
+              <div class="price"/>
               <div class="description">
-                <h6>Démarre le {{ formatDate(formation.startDate) }}</h6>
+                <h6>Démarre le {{ formatDate(formation?.startDate) }}</h6>
                 <p>
-                  {{ formation.description }}
+                  {{ formation?.description }}
                 </p>
               </div>
 
@@ -96,13 +94,13 @@
                   href="#"
                   class="btn btn-success"
                   @click="openModal(formation, true)"
-                  >Je m'inscris! 💪👩‍🎓</a
+                  >Je m'inscris ! 💪👩‍🎓</a
                 >
                 <a
                   href="#"
                   class="btn btn-primary"
                   @click="openModal(formation, false)"
-                  >Je suis interessé! 👀</a
+                  >Je suis interessé ! 👀</a
                 >
               </div>
             </div>
@@ -118,55 +116,55 @@
                 <div class="modal-header">
                   <h5 class="modal-title">
                     Vous vous enregistré à cette formation:
-                    {{ selectedFormation.courseName }}
+                    {{ selectedFormation?.courseName }}
                   </h5>
                   <button
                     type="button"
                     class="btn-close"
                     @click="showModal = false"
-                  ></button>
+                  />
                 </div>
                 <div class="modal-body">
                   <div class="mb-3">
                     <label for="" class="form-label">Mon nom</label>
                     <input
+                      id=""
+                      v-model="newStudent.name"
                       type="text"
                       class="form-control"
                       name=""
-                      id=""
-                      v-model="newStudent.name"
-                    />
+                    >
                   </div>
                   <div class="mb-3">
                     <label for="" class="form-label">Mon email</label>
                     <input
+                      id=""
+                      v-model="newStudent.email"
                       type="email"
                       class="form-control"
                       name=""
-                      id=""
                       aria-describedby="emailHelpId"
                       placeholder="abc@mail.com"
-                      v-model="newStudent.email"
-                    />
+                    >
               
                   </div>
                   <div class="mb-3">
                     <label for="" class="form-label">Mon numéro</label>
                     <input
+                      id=""
+                      v-model="newStudent.mobile"
                       type="number"
                       class="form-control"
                       name=""
-                      id=""
                       placeholder="77"
-                      v-model="newStudent.mobile"
-                    />
+                    >
                   </div>
                 </div>
                 <div class="modal-footer">
                   <button
                     class="btn btn-secondary"
-                    @click="register(selectedFormation)"
                     :disabled="isDisabled"
+                    @click="register(selectedFormation)"
                   >
                     Je m'enregistre
                   </button>
@@ -185,56 +183,56 @@
                 <div class="modal-header">
                   <h5 class="modal-title">
                     Vous êtes interessé par cette:
-                    {{ selectedFormation.courseName }}
+                    {{ selectedFormation?.courseName }}
                   </h5>
                   <button
                     type="button"
                     class="btn-close"
                     @click="showModalInterestd = false"
-                  ></button>
+                  />
                 </div>
                 <div class="modal-body">
                   <p>Indiquez vos coordonnés vous serez contacté! 😌😄</p>
                   <div class="mb-3">
                     <label for="" class="form-label">Mon nom</label>
                     <input
+                      id=""
+                      v-model="newStudent.name"
                       type="text"
                       class="form-control"
                       name=""
-                      id=""
-                      v-model="newStudent.name"
-                    />
+                    >
                   </div>
                   <div class="mb-3">
                     <label for="" class="form-label">Mon email</label>
                     <input
+                      id=""
+                      v-model="newStudent.email"
                       type="email"
                       class="form-control"
                       name=""
-                      id=""
                       aria-describedby="emailHelpId"
                       placeholder="abc@mail.com"
-                      v-model="newStudent.email"
-                    />
+                    >
                 
                   </div>
                   <div class="mb-3">
                     <label for="" class="form-label">Mon numéro</label>
                     <input
+                      id=""
+                      v-model="newStudent.mobile"
                       type="number"
                       class="form-control"
                       name=""
-                      id=""
                       placeholder="77"
-                      v-model="newStudent.mobile"
-                    />
+                    >
                   </div>
                 </div>
                 <div class="modal-footer">
                   <button
                     class="btn btn-secondary"
-                    @click="imInterested(selectedFormation)"
                     :disabled="isDisabled"
+                    @click="imInterested(selectedFormation)"
                   >
                     Me contacter
                   </button>
@@ -247,7 +245,7 @@
           <div
             v-if="showModal || showModalInterestd"
             class="modal-backdrop fade show"
-          ></div>
+          />
         </div>
       </div>
 
@@ -255,34 +253,34 @@
         <img
           src="../../assets/img/shape2.svg"
           alt="IT+ formation cours informatique djibouti"
-        />
+        >
       </div>
       <div class="shape2 rotateme">
         <img
           src="../../assets/img/shape2.svg"
           alt="IT+ formation cours informatique djibouti"
-        />
+        >
       </div>
       <div class="shape7">
         <img
           src="../../assets/img/shape4.svg"
           alt="IT+ formation cours informatique djibouti"
-        />
+        >
       </div>
       <div class="shape4">
         <img
           src="../../assets/img/shape4.svg"
           alt="IT+ formation cours informatique djibouti"
-        />
+        >
       </div>
     </section>
     <div class="col-12">
       <Email_fr
-        :name="newStudent.name"
-        :course="selectedFormation.courseName"
         ref="mail"
+        :name="newStudent.name"
+        :course="selectedFormation?.courseName"
         style="display: none;"
-      ></Email_fr>
+      />
     </div>
     <!-- End Pricing Area -->
   </div>
@@ -293,7 +291,10 @@ import type { Timestamp } from 'firebase/firestore';
 
 import Email_fr from '../components/emails/email_fr.vue';
 import mailService from '../services/mail.service';
-import type { FormationType } from '~/types/formation';
+import {useToast} from 'vue-toast-notification';
+import { FormationType } from '~/types/formation';
+import { UserType } from '~/types/user';
+
 const mail = ref<InstanceType<typeof Email_fr> | null>(null);
 const toast = useToast()
 const store = formationStore()
@@ -304,7 +305,7 @@ const newStudent = ref(new UserType())
 const allFormations = computed(() => {
   return store.getAllformationsDispo()
 })
-// const progress = (formation: FormationType) => { return ((formation.students.length / formation.maxStudents) * 100) };
+// const progress = (formation: FormationType) => { return ((formation?.students.length / formation?.maxStudents) * 100) };
 
 const formatDate = (date: Date | Timestamp) => {
 
@@ -313,7 +314,7 @@ const formatDate = (date: Date | Timestamp) => {
 }
 
 const register = async (formation: FormationType) => {
-  selectedFormation.value.students.push(newStudent.value)
+  selectedFormation?.value.students.push(newStudent.value)
   await store.updateFormation(formation)
   toast.success("Enregistrement effectué avec succés")
   showModal.value = false
@@ -322,8 +323,8 @@ const register = async (formation: FormationType) => {
   }, 1000);
 }
 const imInterested = async (formation: FormationType) => {
-  if (selectedFormation.value.interestedStudents) {
-    selectedFormation.value.interestedStudents.push(newStudent.value)
+  if (selectedFormation?.value.interestedStudents) {
+    selectedFormation?.value.interestedStudents.push(newStudent.value)
   }else{
     selectedFormation.value.interestedStudents = [newStudent.value]
   }

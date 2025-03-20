@@ -45,32 +45,32 @@
 
             <ul class="footer-contact-info">
               <li>
-                <MapPinIcon  type="map-pin"/>
+                <MapPinIcon />
                 Hodan 1 Lot 28
               </li>
               <li>
-                <MailIcon  type="mail"/> Email:
+                <MailIcon /> Email:
                 <a href="#">djib.it.advanced.technology@gmail.com</a>
               </li>
               <li>
-                <PhoneCallIcon  type="phone-call"/> Phone:
+                <PhoneCallIcon  /> Phone:
                 <a href="#"> +253 77 151875</a>
               </li>
             </ul>
             <ul class="social-links">
               <li>
                 <a href="#" class="facebook">
-                  <FacebookIcon  type="facebook"/>
+                  <FacebookIcon  />
                 </a>
               </li>
               <li>
                 <a href="#" class="twitter">
-                  <TwitterIcon  type="twitter"/>
+                  <TwitterIcon  />
                 </a>
               </li>
               <li>
                 <a href="#" class="instagram">
-                  <InstagramIcon  type="instagram"/>
+                  <InstagramIcon  />
                 </a>
               </li>
          
@@ -93,7 +93,7 @@
     <div class="shape8 rotateme">
       <img src="../../assets/img/shape2.svg" alt="IT+ formation cours informatique djibouti" >
     </div>
-    <!-- <div class="go-top"><XIcon  type="arrow-up"></XIcon></div> -->
+    <!-- <div class="go-top"><XIcon  ></XIcon></div> -->
 
 
   </footer>
@@ -101,3 +101,13 @@
 </template>
 
 
+
+<style lang="scss" scoped>
+@import "../../assets/style/style.scss";
+.logo{
+  text-align: center;
+  margin-bottom: 20px;
+  width: 200px;
+}
+  
+</style>

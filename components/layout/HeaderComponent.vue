@@ -28,7 +28,7 @@ id="collapseBtn" class="navbar-toggler" type="button" aria-controls="navbarSuppo
                 <a class="nav-link">Programmes <ChevronDownIcon/></a>
                 <ul class="dropdown_menu">
                   <li class="nav-item">
-                    <router-link to="/cours-programmation" class="nav-link">Developpement</router-link>
+                    <router-link to="/cours-programmation" class="nav-link">Programmation</router-link>
                   </li>
 
                   <li class="nav-item">

@@ -7,7 +7,7 @@
     <FooterComponent></FooterComponent>
     <button bottom="50px" right="50px" @click="toTopFunction">
       <div class="go-top">
-        <ArrowUpIcon  type="arrow-up"></ArrowUpIcon>
+        <ArrowUpIcon  ></ArrowUpIcon>
       </div>
     </button>
   </div>

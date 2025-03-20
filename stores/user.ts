@@ -3,6 +3,7 @@ import { ref, computed } from "vue";
 import type { UserType } from "../types/user";
 import AuthService from "../services/auth.service";
 import firebase from 'firebase/compat/app';
+import type { DocumentData } from 'firebase/firestore';
 
 export const useAuthStore = defineStore("auth", () => {
   // State (using ref)

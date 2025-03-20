@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image', '@pinia/nuxt',
     'usebootstrap',    'nuxt-feather-icons'
-
   ], 
+  css: ["@/assets/style/style.scss"], // Load global SCSS
+
 })

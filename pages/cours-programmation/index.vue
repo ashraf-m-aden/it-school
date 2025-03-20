@@ -170,7 +170,7 @@ import { useRouter } from 'vue-router'
 
 const router = useRouter();
 
-const goPage = (url:any) => {
+const goPage = (url:string) => {
   router.push(url);
 }
 

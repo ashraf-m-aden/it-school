@@ -26,7 +26,7 @@
             <div class="icon">
               <CodeIcon/>
             </div>
-            <h3>Developpement web</h3>
+            <h3>Programmation web</h3>
             <p>
               Apprennez les outils necessaires pour developper des sites et des
               applications web. Devenez full-stack en maitrisant plusieurs
