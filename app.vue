@@ -1,0 +1,48 @@
+<template>
+  <div>
+
+    <HeaderComponent></HeaderComponent>
+    <PreLoaderComponent v-show="isLoading" />
+    <NuxtPage />
+    <FooterComponent></FooterComponent>
+    <button bottom="50px" right="50px" @click="toTopFunction">
+      <div class="go-top">
+        <ArrowUpIcon  type="arrow-up"></ArrowUpIcon>
+      </div>
+    </button>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { onMounted, ref, watch } from "vue";
+import { useRoute } from "vue-router";
+import HeaderComponent from "./components/layout/HeaderComponent.vue";
+import PreLoaderComponent from "./components/layout/PreLoaderComponent.vue";
+import FooterComponent from "./components/layout/FooterComponent.vue";
+import { formationStore } from "./stores/formations";
+import { useAuthStore } from "./stores/user";
+
+const isLoading = ref(false);
+const currentUrl = ref();
+const route = useRoute();
+const fstore = formationStore()
+const ustore = useAuthStore()
+const toTopFunction = () => {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+};
+
+onMounted(async () => {
+  await
+    await fstore.retrieveAllFormation()
+  await ustore.checkAuth()
+})
+watch(route, () => {
+  currentUrl.value = route.fullPath;
+
+  isLoading.value = true;
+  setTimeout(() => {
+    isLoading.value = false;
+  }, 1500);
+});
+</script>
