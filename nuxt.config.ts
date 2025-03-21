@@ -11,5 +11,9 @@ export default defineNuxtConfig({
     'nuxt-feather-icons',
   ], 
   css: ["@/assets/style/style.scss"], // Load global SCSS
-
+  nitro: {
+    firebase: {
+      gen: 2
+    }
+  }
 })
