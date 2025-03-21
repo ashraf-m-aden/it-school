@@ -11,28 +11,28 @@
       </div>
 
       <div class="shape1">
-        <img src="../../../assets/img/shape1.png" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../../assets/img/shape1.png" alt="IT+ formation cours informatique djibouti" >
       </div>
       <div class="shape2 rotateme">
-        <img src="../../../assets/img/shape2.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../../assets/img/shape2.svg" alt="IT+ formation cours informatique djibouti" >
       </div>
       <div class="shape3">
-        <img src="../../../assets/img/shape3.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../../assets/img/shape3.svg" alt="IT+ formation cours informatique djibouti" >
       </div>
       <div class="shape4">
-        <img src="../../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" >
       </div>
       <div class="shape5">
-        <img src="../../../assets/img/shape5.png" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../../assets/img/shape5.png" alt="IT+ formation cours informatique djibouti" >
       </div>
       <div class="shape6 rotateme">
-        <img src="../../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" >
       </div>
       <div class="shape7">
-        <img src="../../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" >
       </div>
       <div class="shape8 rotateme">
-        <img src="../../../assets/img/shape2.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../../assets/img/shape2.svg" alt="IT+ formation cours informatique djibouti" >
       </div>
     </div>
     <!-- End Page Title -->
@@ -49,7 +49,7 @@
               <img
                 src="../../../assets/img/courses/fondamentaux.jpeg"
                 alt="IT+ ADVANCED TECHNOLOGY"
-              />
+              >
 
               <div class="content">
                 <h3><a href="#">Les fondamentaux des réseaux</a></h3>
@@ -57,7 +57,7 @@
                   ><router-link
                     to="/cours-reseaux-systemes/fondamentaux-reseaux"
                     >Lire plus
-                    <PlusCircleIcon  type="plus-circle"></PlusCircleIcon> </router-link
+                    <PlusCircleIcon  type="plus-circle"/> </router-link
                 ></a>
               </div>
             </div>
@@ -71,14 +71,14 @@
               <img
                 src="../../../assets/img/courses/ccna.jpeg"
                 alt="IT+ ADVANCED TECHNOLOGY"
-              />
+              >
 
               <div class="content">
                 <h3><a href="#">Réseaux avancés</a></h3>
                 <a href="#" class="read-more-btn"
                   ><router-link to="/cours-reseaux-systemes/reseaux-avances"
                     >Lire plus
-                    <PlusCircleIcon  type="plus-circle"></PlusCircleIcon> </router-link
+                    <PlusCircleIcon  type="plus-circle"/> </router-link
                 ></a>
               </div>
             </div>
@@ -92,14 +92,14 @@
               <img
                 src="../../../assets/img/courses/gns3.jpeg"
                 alt="IT+ ADVANCED TECHNOLOGY"
-              />
+              >
 
               <div class="content">
                 <h3><a href="#">Maitriser l'émulation des réseaux</a></h3>
                 <a href="#" class="read-more-btn"
                   ><router-link to="/cours-reseaux-systemes/gns3"
                     >Lire plus
-                    <PlusCircleIcon  type="plus-circle"></PlusCircleIcon> </router-link
+                    <PlusCircleIcon  type="plus-circle"/> </router-link
                 ></a>
               </div>
             </div>
@@ -112,7 +112,7 @@
               <img
                 src="../../../assets/img/courses/security.jpeg"
                 alt="IT+ ADVANCED TECHNOLOGY"
-              />
+              >
 
               <div class="content">
                 <h3><a href="#">Securité informatique</a></h3>
@@ -120,7 +120,7 @@
                   ><router-link
                     to="/cours-reseaux-systemes/securite-informatique"
                     >Lire plus
-                    <PlusCircleIcon  type="plus-circle"></PlusCircleIcon> </router-link
+                    <PlusCircleIcon  type="plus-circle"/> </router-link
                 ></a>
               </div>
             </div>
@@ -134,7 +134,7 @@
               <img
                 src="../../../assets/img/courses/windows.jpeg"
                 alt="IT+ ADVANCED TECHNOLOGY"
-              />
+              >
 
               <div class="content">
                 <h3>
@@ -146,7 +146,7 @@
                   ><router-link
                     to="/cours-reseaux-systemes/installation-windows"
                     >Lire plus
-                    <PlusCircleIcon  type="plus-circle"></PlusCircleIcon> </router-link
+                    <PlusCircleIcon  type="plus-circle"/> </router-link
                 ></a>
               </div>
             </div>
@@ -160,7 +160,7 @@
               <img
                 src="../../../assets/img/courses/winserverr.jpeg"
                 alt="IT+ ADVANCED TECHNOLOGY"
-              />
+              >
 
               <div class="content">
                 <h3>
@@ -171,7 +171,7 @@
                 <a href="#" class="read-more-btn"
                   ><router-link to="cours-reseaux-systemes/admin-serveur"
                     >Lire plus
-                    <PlusCircleIcon  type="plus-circle"></PlusCircleIcon> </router-link
+                    <PlusCircleIcon  type="plus-circle"/> </router-link
                 ></a>
               </div>
             </div>
@@ -184,14 +184,14 @@
               <img
                 src="../../../assets/img/courses/LINUX-LOGO.png"
                 alt="IT+ ADVANCED TECHNOLOGY"
-              />
+              >
 
               <div class="content">
                 <h3><a href="#">Administration systeme Linux </a></h3>
                 <a href="#" class="read-more-btn"
                   ><router-link to="/cours-programmation/java"
                     >Lire plus
-                    <PlusCircleIcon  type="plus-circle"></PlusCircleIcon> </router-link
+                    <PlusCircleIcon  type="plus-circle"/> </router-link
                 ></a>
               </div>
             </div>
@@ -204,14 +204,14 @@
               <img
                 src="../../../assets/img/courses/Office_logos.jpg"
                 alt="IT+ ADVANCED TECHNOLOGY"
-              />
+              >
 
               <div class="content">
                 <h3><a href="#">Bureautique</a></h3>
                 <a href="#" class="read-more-btn"
                   ><router-link to="/cours-reseaux-systemes/bureautique"
                     >Lire plus
-                    <PlusCircleIcon  type="plus-circle"></PlusCircleIcon> </router-link
+                    <PlusCircleIcon  type="plus-circle"/> </router-link
                 ></a>
               </div>
             </div>
@@ -220,22 +220,22 @@
       </div>
 
       <div class="shape2 rotateme">
-        <img src="../../../assets/img/shape2.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../../assets/img/shape2.svg" alt="IT+ formation cours informatique djibouti" >
       </div>
       <div class="shape3">
-        <img src="../../../assets/img/shape3.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../../assets/img/shape3.svg" alt="IT+ formation cours informatique djibouti" >
       </div>
       <div class="shape4">
-        <img src="../../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" >
       </div>
       <div class="shape6 rotateme">
-        <img src="../../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" >
       </div>
       <div class="shape7">
-        <img src="../../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../../assets/img/shape4.svg" alt="IT+ formation cours informatique djibouti" >
       </div>
       <div class="shape8 rotateme">
-        <img src="../../../assets/img/shape2.svg" alt="IT+ formation cours informatique djibouti" />
+        <img src="../../../assets/img/shape2.svg" alt="IT+ formation cours informatique djibouti" >
       </div>
     </div>
     <!-- End Services Area -->
@@ -248,4 +248,11 @@ const router = useRouter();
 const goPage = (url:any) => {
   router.push(url);
 };
+useHead({
+  title: "RESEAUX - IT+ Advanced Technology",
+  meta: [
+    { name: "description", content: "La liste de nos formations en réseaux informatiques | Cours en Formations en informatique à Djibouti" },
+    { name: "keywords", content: "formation,réseaux,informatique,cours,Djibouti" }
+  ],
+});
 </script>

@@ -137,3 +137,13 @@
 	</div>
 </template>
 
+<script setup>
+
+useHead({
+  title: "Réseaux Avancés - IT+ Advanced Technology",
+  meta: [
+    { name: "description", content: "Approfondissez vos connaissances en réseaux informatiques et maîtrisez les architectures avancées. | Cours en Formations en informatique à Djibouti" },
+    { name: "keywords", content: "formation,réseaux,avancés,informatique,cours,Djibouti" }
+  ],
+});
+</script>

@@ -142,3 +142,11 @@
   </div>
 </template>
 
+<script setup>
+useHead({
+  title: "À Propos - IT+ Advanced Technology",
+  meta: [
+    { name: "description", content: "Découvrez IT+ Advanced Technology, le centre de formation de référence en informatique et technologies à Djibouti. | Cours en Formations en informatique à Djibouti" },
+    { name: "keywords", content: "formation,à propos,informatique,technologies,cours,Djibouti" }
+  ],
+});</script>

@@ -139,3 +139,11 @@
 </template>
 
 
+<script setup>
+useHead({
+  title: "GNS3 et Simulation Réseau - IT+ Advanced Technology",
+  meta: [
+    { name: "description", content: "Utilisez GNS3 pour simuler et tester vos configurations réseau dans un environnement pratique. | Cours en Formations en informatique à Djibouti" },
+    { name: "keywords", content: "formation,gns3,simulation,réseau,informatique,cours,Djibouti" }
+  ],
+});</script>

@@ -20,3 +20,13 @@
   </div>
 </template>
 
+<script setup>
+import { useHead } from '#imports'
+
+useHead({
+  title: 'OOPS 404 - IT+ Advanced Technology',
+  meta: [
+    { name: 'description', content: 'OOPS 404 | Cours en Formations en informatique à Djibouti' }
+  ]
+})
+</script>

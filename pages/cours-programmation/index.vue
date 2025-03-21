@@ -169,7 +169,13 @@
 import { useRouter } from 'vue-router'
 
 const router = useRouter();
-
+useHead({
+  title: 'PROGRAMMATION - IT+ Advanced Technology',
+  meta: [
+    { name: 'description', content: 'Consultez la liste de nos formations en programmation | Cours en Formations en informatique à Djibouti' }
+    ,{ name: 'keywords', content: 'formation,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours' }
+    ]
+})
 const goPage = (url:string) => {
   router.push(url);
 }

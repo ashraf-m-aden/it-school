@@ -138,3 +138,11 @@
 	</div>
 </template>
 
+<script setup>
+useHead({
+  title: "Administration Windows Server - IT+ Advanced Technology",
+  meta: [
+    { name: "description", content: "Maîtrisez l'administration des serveurs Windows et optimisez la gestion des infrastructures IT. | Cours en Formations en informatique à Djibouti" },
+    { name: "keywords", content: "formation,windows,serveur,administration,cours,Djibouti" }
+  ],
+});</script>

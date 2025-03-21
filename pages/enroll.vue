@@ -294,7 +294,13 @@ import mailService from '../services/mail.service';
 import {useToast} from 'vue-toast-notification';
 import { FormationType } from '~/types/formation';
 import { UserType } from '~/types/user';
-
+useHead({
+  title: 'Inscription - IT+ Advanced Technology',
+  meta: [
+    { name: 'description', content: 'Inscrivez-vous à nos formations et cours disponibles. | Cours en Formations en informatique à Djibouti' },
+    { name: 'keywords', content: 'formation,formations,angular,vue,html,css,linux,sécurité,javascript,java,informatique,djibouti,Djibouti,programmation,réseaux,cours' }
+  ]
+})
 const mail = ref<InstanceType<typeof Email_fr> | null>(null);
 const toast = useToast()
 const store = formationStore()

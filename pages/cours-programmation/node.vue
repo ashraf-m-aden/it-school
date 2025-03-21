@@ -130,4 +130,12 @@
 	</div>
 </template>
 
+<script setup>
+useHead({
+  title: "NODE - IT+ Advanced Technology",
+  meta: [
+    { name: "description", content: "Plongez dans le monde des backends et créez vos premières applications backends | Cours en Formations en informatique à Djibouti" },
+    { name: "keywords", content: "formation,nodejs,backend,programmation,cours,Djibouti" }
+  ],
+});</script>
 

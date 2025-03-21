@@ -46,11 +46,12 @@
 					</div>
 				</div>
 
-				<div class="separate"></div>
+				<div class="separate"/>
 
 				<div class="row align-items-center">
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/JavaScript-Tutorials-for-Beginners-881x441.jpg"
+						<img
+src="../../../../assets/img/courses/JavaScript-Tutorials-for-Beginners-881x441.jpg"
 							class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
 					</div>
 
@@ -67,56 +68,19 @@
 									creer et réagir à des évenements ;</li>
 
 							</ul>
-							
-							<!--
-							<div class="services-details-accordion">
-								<VueFaqAccordion :items="myItems" />
-							</div> -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Services Details Area -->
-<!--
-		<div class="container">
-
-			<div class="row  justify-content-center ">
-
-
-				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="pricing-table active-plan">
-						<div class="pricing-header">
-							<h3>JavaScript</h3>
-						</div>
-
-						<div class="price">
-							<span><sup>Fdj</sup>12000 <span>/Mois</span></span>
-						</div>
-
-						<div class="pricing-features">
-							<ul>
-								<li class="active">Durée de la formation : 2 mois</li>
-								<li class="active">Matériels requis: PC dualcore 4GB ram</li>
-
-							</ul>
-
-						</div>
-						<h6>Prérequis: </h6>
-						<div class="pricing-features">
-
-							<ul>
-								<li class="active">HTML</li>
-							</ul>
-						</div>
-
-
-					</div>
-				</div>
-
-			</div>
-		</div> -->
+			
 	</div>
-</template>
+</div></div></div></section></div></template>
 
 
+<script setup>
+import { useHead } from '#imports'
+
+useHead({
+  title: 'JAVASCRIPT - IT+ Advanced Technology',
+  meta: [
+    { name: 'description', content: 'Apprenez les bases du Javascript et élargissez vos horizons! | Cours en Formations en informatique à Djibouti' }
+	,{ name: 'keywords', content: 'formation,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours' }
+	]
+})
+</script>

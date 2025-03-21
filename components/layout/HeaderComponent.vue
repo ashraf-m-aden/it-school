@@ -44,7 +44,7 @@ id="collapseBtn" class="navbar-toggler" type="button" aria-controls="navbarSuppo
                 <router-link to="/enroll" class="nav-link">S'inscrire à une formation</router-link>
               </li>
 
-              <li class="nav-item">
+              <li v-if="connectedUser" class="nav-item">
                 <router-link to="/new_course" class="nav-link">Ajouter un cours</router-link>
               </li>
 

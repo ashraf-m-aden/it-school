@@ -137,3 +137,11 @@
 </template>
 
 
+<script setup>
+useHead({
+  title: "Fondamentaux des Réseaux - IT+ Advanced Technology",
+  meta: [
+    { name: "description", content: "Apprenez les bases des réseaux informatiques : protocoles, infrastructures et configuration pour bien débuter. | Cours en Formations en informatique à Djibouti" },
+    { name: "keywords", content: "formation,réseaux,fondamentaux,informatique,cours,Djibouti" }
+  ],
+});</script>

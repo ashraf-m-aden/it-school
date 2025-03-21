@@ -27,8 +27,8 @@
 				<div class="row align-items-center">
 					<div class="col-lg-6 services-details">
 						<div class="services-details-desc">
-							<h3>Linux Institue Professionnel</h3>
-							<p>LIP (Linux Institue Professionnel) est une organisation à but non lucratif créé dans le
+							<h3>Linux Professional Institut</h3>
+							<p>LPI (Linux Professional Institut) est une organisation à but non lucratif créé dans le
 								but d’offrir à
 								ceux qui le désirent des compétences en GNU/Linux. La LPIC est aujourd’hui la
 								certification la
@@ -55,7 +55,7 @@
 					</div>
 				</div>
 
-				<div class="separate"></div>
+				<div class="separate"/>
 
 				<div class="row align-items-center">
 					<div class="col-lg-6 services-details-image">
@@ -137,3 +137,12 @@
 	</div>
 </template>
 
+<script setup>
+useHead({
+  title: "Formation Linux - IT+ Advanced Technology",
+  meta: [
+    { name: "description", content: "Maîtrisez l'administration Linux et découvrez les bases des systèmes open-source avec notre formation pratique. | Cours en Formations en informatique à Djibouti" },
+    { name: "keywords", content: "formation,linux,systèmes,cours,Djibouti" }
+  ],
+});
+</script>

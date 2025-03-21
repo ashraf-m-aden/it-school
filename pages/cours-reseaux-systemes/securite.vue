@@ -146,3 +146,14 @@
 </template>
 
 
+<script setup>
+import { useHead } from '#imports'
+
+useHead({
+  title: 'Sécurité Informatique - IT+ Advanced Technology',
+  meta: [
+    { name: 'description', content: 'Développez vos compétences en cybersécurité et apprenez à protéger les systèmes informatiques contre les menaces. | Cours en Formations en informatique à Djibouti' },
+    { name: 'keywords', content: 'formation,formations,angular,vue,html,css,linux,sécurité,javascript,java,informatique,djibouti,Djibouti,programmation,réseaux,cours' }
+  ]
+})
+</script>

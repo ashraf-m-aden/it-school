@@ -112,3 +112,12 @@
 	</div>
 </template>
 
+<script setup>
+useHead({
+  title: "JAVA - IT+ Advanced Technology",
+  meta: [
+    { name: "description", content: "Maitrisez un des langages de programmation les plus populaires | Cours en Formations en informatique à Djibouti" },
+    { name: "keywords", content: "formation,java,informatique,programmation,cours,Djibouti" }
+  ],
+});
+</script>

@@ -59,17 +59,17 @@
             </ul>
             <ul class="social-links">
               <li>
-                <a href="#" class="facebook">
+                <a href="https://www.facebook.com/profile.php?id=61572841634001" target="_blank" class="facebook">
                   <FacebookIcon  />
                 </a>
               </li>
               <li>
-                <a href="#" class="twitter">
-                  <TwitterIcon  />
+                <a href="https://x.com/ITAdvancedTech" target="_blank" class="twitter">
+                  <XIcon  />
                 </a>
               </li>
               <li>
-                <a href="#" class="instagram">
+                <a href="https://www.instagram.com/it_advanced_technology/" target="_blank" class="instagram">
                   <InstagramIcon  />
                 </a>
               </li>

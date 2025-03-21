@@ -128,3 +128,14 @@
 	</div>
 </template>
 
+<script setup>
+import { useHead } from '#imports'
+
+useHead({
+  title: 'ANGULAR - IT+ Advanced Technology',
+  meta: [
+    { name: 'description', content: 'Maitrisez un des meilleurs frameworks Javascript | Cours en Formations en informatique à Djibouti' }
+	,{ name: 'keywords', content: 'formation,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours' }
+	]
+})
+</script>

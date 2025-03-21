@@ -97,7 +97,17 @@
   </div>
 </template>
 
+<script setup>
+import { useHead } from '#imports'
 
+useHead({
+  title: 'Contact - IT+ Advanced Technology',
+  meta: [
+    { name: 'description', content: 'Contactez IT+ Advanced Technology pour en savoir plus sur nos formations et nos services en informatique. | Cours en Formations en informatique à Djibouti' }
+    ,{ name: 'keywords', content: 'formation,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours' }
+    ]
+})
+</script>
 
 <style lang="scss" scoped>
 // @import "../assets/style/custom.scss";
