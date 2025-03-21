@@ -9,11 +9,17 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     'usebootstrap',
     'nuxt-feather-icons',
-  ], 
+  ],  site: {
+    url: 'https://it-advanced-technology.com',
+    name: 'IT+ ADVANCED TECHHNOLOGY',
+    defaultLocale: 'fr', // not needed if you have @nuxtjs/i18n installed
+  },
   css: ["@/assets/style/style.scss"], // Load global SCSS
   nitro: {
-    firebase: {
-      gen: 2
-    }
-  }
+
+    preset: 'netlify_edge'
+  },  image: {
+    provider: 'netlify',
+  },
+  ssr: false
 })
