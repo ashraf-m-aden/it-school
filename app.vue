@@ -1,13 +1,13 @@
 <template>
   <div>
 
-    <HeaderComponent></HeaderComponent>
+    <HeaderComponent/>
     <PreLoaderComponent v-show="isLoading" />
     <NuxtPage />
-    <FooterComponent></FooterComponent>
+    <FooterComponent/>
     <button bottom="50px" right="50px" @click="toTopFunction">
       <div class="go-top">
-        <ArrowUpIcon  ></ArrowUpIcon>
+        <ArrowUpIcon/>
       </div>
     </button>
   </div>

@@ -7,18 +7,16 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
     '@pinia/nuxt',
-    'usebootstrap',
     'nuxt-feather-icons',
-  ],  site: {
-    url: 'https://it-advanced-technology.com',
-    name: 'IT+ ADVANCED TECHHNOLOGY',
-    defaultLocale: 'fr', // not needed if you have @nuxtjs/i18n installed
-  },
-  css: ["@/assets/style/style.scss"], // Load global SCSS
+  ], 
+  plugins: [
+    '~/plugins/bootstrap.client.ts',
+  ],
+  css: ["bootstrap/dist/css/bootstrap.min.css", "@/assets/style/custom.scss",], // Load global SCSS
   nitro: {
 
     preset: 'netlify_edge'
-  },  image: {
+  }, image: {
     provider: 'netlify',
   },
   ssr: false
