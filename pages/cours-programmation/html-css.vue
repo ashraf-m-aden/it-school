@@ -118,7 +118,7 @@ useHead({
   title: 'HTML - IT+ Advanced Technology',
   meta: [
     { name: 'description', content: 'Plongez dans les bases de la programmation avec notre formation en HTML et CSS | Cours en Formations en informatique à Djibouti' }
-	,{ name: 'keywords', content: 'formation,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours' }
+	,{ name: 'keywords', content: 'formation,school,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, school' }
 	]
 })
 </script>
