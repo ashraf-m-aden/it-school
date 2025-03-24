@@ -20,7 +20,7 @@
                   accessible.
                 </p>
                 <div class="d-flex">
-                  <a class="read-more-btn syllabus" target="_blank" href="/SYLLABUS IT+ ADVANCED TECHNOLOGY.pdf" download="SYLLABUS IT+ ADVANCED TECHNOLOGY.pdf">Télecharger le syllabus
+                  <a class="read-more-btn syllabus" target="_blank"  href="/SYLLABUS_IT+_ADVANCED_TECHNOLOGY.pdf" download="SYLLABUS IT+ ADVANCED TECHNOLOGY.pdf">Télecharger le syllabus
                   </a>
                 </div>
               </div>
