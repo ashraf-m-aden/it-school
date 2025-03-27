@@ -76,7 +76,7 @@
               </div>
 
               <div class="price">
-                <span>10000<sup>Fdj</sup> <span>/Mois</span></span>
+                <span>{{ formation?.price }}<sup>Fdj</sup> <span>/Mois</span></span>
                 <br >
                 <span>Pendant {{ formation?.numberOfMonth }} mois </span>
               </div>
