@@ -7,8 +7,7 @@
           <div class="row h-100 justify-content-center align-items-center">
             <div class="col-lg-5">
               <div class="hero-content">
-                <h1>IT+ School</h1>
-                <h2>ADVANCED TECHNOLOGY</h2>
+                <h1>IT+ Code Lab</h1>
                 <h3>Avec nos cours et nos formations, l'informatique n'a jamais eté aussi accessible</h3>
                 <p>
                   Prenez part à de nombreuse formations pratiques en
@@ -20,7 +19,7 @@
                   accessible.
                 </p>
                 <div class="d-flex">
-                  <a class="read-more-btn syllabus" target="_blank"  href="/SYLLABUS_IT+_ADVANCED_TECHNOLOGY.pdf" download="SYLLABUS IT+ ADVANCED TECHNOLOGY.pdf">Télecharger le syllabus
+                  <a class="read-more-btn syllabus" target="_blank"  href="/SYLLABUS IT+ CODE LAB.pdf" download="SYLLABUS IT+ CODE LAB.pdf">Télecharger le syllabus
                   </a>
                 </div>
               </div>

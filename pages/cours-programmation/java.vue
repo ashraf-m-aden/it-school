@@ -42,7 +42,7 @@
 					</div>
 
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/1200px-Java_Logo.png" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/1200px-Java_Logo.png" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 				</div>
 
@@ -50,7 +50,7 @@
 
 				<div class="row align-items-center">
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/java2.jpg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/java2.jpg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 
 					<div class="col-lg-6 services-details">
@@ -114,7 +114,7 @@
 
 <script setup>
 useHead({
-  title: "JAVA - IT+ Advanced Technology",
+  title: "JAVA - IT+ CODE LAB",
   meta: [
     { name: "description", content: "Maitrisez un des langages de programmation les plus populaires | Cours en Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,java,informatique,programmation,cours,Djibouti" }

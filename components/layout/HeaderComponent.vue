@@ -7,7 +7,7 @@
 
           <a class="navbar-brand" href="/">
             <img src="../../assets/img/logo.svg" class="navbarbrand" :class="{ 'navbar-shrink': isShrunk }"
-              alt="IT+ ADVANCED TECHNOLOGY">
+              alt="IT+ CODE LAB">
           </a>
 
           <button id="collapseBtn" class="navbar-toggler" type="button" aria-controls="navbarSupportedContent"

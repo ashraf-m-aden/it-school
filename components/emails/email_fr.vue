@@ -18,9 +18,9 @@
             <div class="col-12">
               <div class="logo">
                 <img
-                  src="https://it-advanced-technology.com/assets/img/logo.svg"
+                  src="https://codelab.it-advanced-technology.com/assets/img/logo.svg"
                   class="logo-img"
-                  alt="'IT+ ADVANCED TECHNOLOGY Djibouti'"
+                  alt="'IT+ CODE LAB Djibouti'"
                 />
               </div>
               <div class="title" style="color: blue">
@@ -43,7 +43,7 @@
               </div>
 
               <p style="line-height: 140%; color: green; font-size: 14px">
-                <strong> IT+ ADVANCED TECHNOLOGY</strong>
+                <strong> IT+ CODE LAB</strong>
               </p>
             </div>
           </div>

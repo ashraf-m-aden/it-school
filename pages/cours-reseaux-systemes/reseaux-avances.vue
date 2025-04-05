@@ -52,7 +52,7 @@
 					</div>
 
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/switch.jpeg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/switch.jpeg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 				</div>
 
@@ -60,7 +60,7 @@
 
 				<div class="row align-items-center">
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/server.jpeg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/server.jpeg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 
 					<div class="col-lg-6 services-details">
@@ -140,7 +140,7 @@
 <script setup>
 
 useHead({
-  title: "Réseaux Avancés - IT+ Advanced Technology",
+  title: "Réseaux Avancés - IT+ CODE LAB",
   meta: [
     { name: "description", content: "Approfondissez vos connaissances en réseaux informatiques et maîtrisez les architectures avancées. | Cours en Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,réseaux,avancés,informatique,cours,Djibouti" }

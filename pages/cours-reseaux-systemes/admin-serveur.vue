@@ -50,7 +50,7 @@
 					</div>
 
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/winserver.jpeg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/winserver.jpeg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 				</div>
 
@@ -58,7 +58,7 @@
 
 				<div class="row align-items-center">
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/win server.jpeg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/win server.jpeg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 
 					<div class="col-lg-6 services-details">
@@ -140,7 +140,7 @@
 
 <script setup>
 useHead({
-  title: "Administration Windows Server - IT+ Advanced Technology",
+  title: "Administration Windows Server - IT+ CODE LAB",
   meta: [
     { name: "description", content: "Maîtrisez l'administration des serveurs Windows et optimisez la gestion des infrastructures IT. | Cours en Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,windows,serveur,administration,cours,Djibouti" }

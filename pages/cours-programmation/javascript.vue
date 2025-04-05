@@ -42,7 +42,7 @@
 					</div>
 
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/js.png" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/js.png" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 				</div>
 
@@ -52,7 +52,7 @@
 					<div class="col-lg-6 services-details-image">
 						<img
 src="../../../../assets/img/courses/JavaScript-Tutorials-for-Beginners-881x441.jpg"
-							class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+							class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 
 					<div class="col-lg-6 services-details">
@@ -77,10 +77,10 @@ src="../../../../assets/img/courses/JavaScript-Tutorials-for-Beginners-881x441.j
 import { useHead } from '#imports'
 
 useHead({
-  title: 'JAVASCRIPT - IT+ Advanced Technology',
+  title: 'JAVASCRIPT - IT+ CODE LAB',
   meta: [
     { name: 'description', content: 'Apprenez les bases du Javascript et élargissez vos horizons! | Cours en Formations en informatique à Djibouti' }
-	,{ name: 'keywords', content: 'formation,school,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, school' }
+	,{ name: 'keywords', content: 'formation,Code Lab,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, Code Lab' }
 	]
 })
 </script>

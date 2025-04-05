@@ -80,7 +80,7 @@
                     ></l-tile-layer>
                     <l-marker :lat-lng="[11.554622, 43.100724]">
                       <l-icon :icon-url="iconUrl" :icon-size="iconSize" />
-                      <l-popup> IT+ ADVANCED TECHNOLOGY</l-popup>
+                      <l-popup> IT+ CODE LAB</l-popup>
                     </l-marker>
                   </l-map>
                 </div>
@@ -101,10 +101,10 @@
 import { useHead } from '#imports'
 
 useHead({
-  title: 'Contact - IT+ Advanced Technology',
+  title: 'Contact - IT+ CODE LAB',
   meta: [
-    { name: 'description', content: 'Contactez IT+ Advanced Technology pour en savoir plus sur nos formations et nos services en informatique. | Cours en Formations en informatique à Djibouti' }
-    ,{ name: 'keywords', content: 'formation,school,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, school' }
+    { name: 'description', content: 'Contactez IT+ CODE LAB pour en savoir plus sur nos formations et nos services en informatique. | Cours en Formations en informatique à Djibouti' }
+    ,{ name: 'keywords', content: 'formation,Code Lab,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, Code Lab' }
     ]
 })
 </script>

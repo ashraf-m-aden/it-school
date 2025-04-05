@@ -61,7 +61,7 @@
 					</div>
 
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/reseau.jpeg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/reseau.jpeg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 				</div>
 
@@ -69,7 +69,7 @@
 
 				<div class="row align-items-center">
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/lock.jpeg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/lock.jpeg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 
 					<div class="col-lg-6 services-details">
@@ -150,10 +150,10 @@
 import { useHead } from '#imports'
 
 useHead({
-  title: 'Sécurité Informatique - IT+ Advanced Technology',
+  title: 'Sécurité Informatique - IT+ CODE LAB',
   meta: [
     { name: 'description', content: 'Développez vos compétences en cybersécurité et apprenez à protéger les systèmes informatiques contre les menaces. | Cours en Formations en informatique à Djibouti' },
-    { name: 'keywords', content: 'formation,school,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, school' }
+    { name: 'keywords', content: 'formation,Code Lab,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, Code Lab' }
   ]
 })
 </script>

@@ -43,7 +43,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-12">
             <div class="about-image">
-              <img src="../../../assets/img/1.png" alt="IT+ ADVANCED TECHNOLOGY" />
+              <img src="../../../assets/img/1.png" alt="IT+ CODE LAB" />
             </div>
           </div>
 
@@ -144,9 +144,9 @@
 
 <script setup>
 useHead({
-  title: "À Propos - IT+ Advanced Technology",
+  title: "À Propos - IT+ CODE LAB",
   meta: [
-    { name: "description", content: "Découvrez IT+ Advanced Technology, le centre de formation de référence en informatique et technologies à Djibouti. | Cours en Formations en informatique à Djibouti" },
-    { name: "keywords", content: "formation,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, school" }
+    { name: "description", content: "Découvrez IT+ CODE LAB, le centre de formation de référence en informatique et technologies à Djibouti. | Cours en Formations en informatique à Djibouti" },
+    { name: "keywords", content: "formation,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, Code Lab" }
   ],
 });</script>

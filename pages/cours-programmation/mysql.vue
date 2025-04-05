@@ -45,7 +45,7 @@
 					</div>
 
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/mysql.jpg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/mysql.jpg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 				</div>
 
@@ -53,7 +53,7 @@
 
 				<div class="row align-items-center">
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/mysql 2.jpg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/mysql 2.jpg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 
 					<div class="col-lg-6 services-details">
@@ -124,7 +124,7 @@
 
 <script setup>
 useHead({
-  title: "MYSQL - IT+ Advanced Technology",
+  title: "MYSQL - IT+ CODE LAB",
   meta: [
     { name: "description", content: "Nos formations en base de données vont vous intéresser ! | Cours en Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,mysql,base de données,programmation,cours,Djibouti" }

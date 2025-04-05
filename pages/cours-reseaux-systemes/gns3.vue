@@ -58,7 +58,7 @@
 					</div>
 
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/gns3.jpeg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/gns3.jpeg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 				</div>
 
@@ -66,7 +66,7 @@
 
 				<div class="row align-items-center">
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/ciscogns3.jpeg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/ciscogns3.jpeg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 
 					<div class="col-lg-6 services-details">
@@ -141,7 +141,7 @@
 
 <script setup>
 useHead({
-  title: "GNS3 et Simulation Réseau - IT+ Advanced Technology",
+  title: "GNS3 et Simulation Réseau - IT+ CODE LAB",
   meta: [
     { name: "description", content: "Utilisez GNS3 pour simuler et tester vos configurations réseau dans un environnement pratique. | Cours en Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,gns3,simulation,réseau,informatique,cours,Djibouti" }

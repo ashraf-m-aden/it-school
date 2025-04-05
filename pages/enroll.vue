@@ -295,10 +295,10 @@ import {useToast} from 'vue-toast-notification';
 import { FormationType } from '~/types/formation';
 import { UserType } from '~/types/user';
 useHead({
-  title: 'Inscription - IT+ Advanced Technology',
+  title: 'Inscription - IT+ CODE LAB',
   meta: [
     { name: 'description', content: 'Inscrivez-vous à nos formations et cours disponibles. | Cours en Formations en informatique à Djibouti' },
-    { name: 'keywords', content: 'formation,school,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, school' }
+    { name: 'keywords', content: 'formation,Code Lab,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, Code Lab' }
   ]
 })
 const mail = ref<InstanceType<typeof Email_fr> | null>(null);

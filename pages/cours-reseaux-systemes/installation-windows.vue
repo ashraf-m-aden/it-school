@@ -41,7 +41,7 @@
 					</div>
 
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/win11.jpeg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/win11.jpeg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 				</div>
 
@@ -49,7 +49,7 @@
 
 				<div class="row align-items-center">
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/win.jpeg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/win.jpeg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 
 					<div class="col-lg-6 services-details">
@@ -119,7 +119,7 @@
 
 <script setup>
 useHead({
-  title: "Installation et Configuration Windows - IT+ Advanced Technology",
+  title: "Installation et Configuration Windows - IT+ CODE LAB",
   meta: [
     { name: "description", content: "Apprenez à installer, configurer et gérer les systèmes Windows pour une utilisation professionnelle. | Cours en Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,windows,installation,systèmes,cours,Djibouti" }

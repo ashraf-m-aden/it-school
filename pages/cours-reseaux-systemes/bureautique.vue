@@ -51,7 +51,7 @@
 					</div>
 
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/office1.jpeg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/office1.jpeg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 				</div>
 
@@ -59,7 +59,7 @@
 
 				<div class="row align-items-center">
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/office2.jpeg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/office2.jpeg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 
 					<div class="col-lg-6 services-details">
@@ -134,7 +134,7 @@
 
 <script setup>
 useHead({
-  title: "Formation Bureautique - IT+ Advanced Technology",
+  title: "Formation Bureautique - IT+ CODE LAB",
   meta: [
     { name: "description", content: "Optimisez votre productivité avec nos formations en bureautique : Word, Excel, PowerPoint et plus encore. | Cours en Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,bureautique,word,excel,powerpoint,cours,Djibouti" }

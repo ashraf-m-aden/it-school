@@ -43,7 +43,7 @@
         <div class="row">
           <div class="col-lg-4 col-sm-6 col-md-6">
             <div class="agency-services-box" @click="goPage('/cours-programmation/html-css')">
-              <img src="../../../assets/img/courses/logo-html5-css3.png" alt="IT+ ADVANCED TECHNOLOGY" />
+              <img src="../../../assets/img/courses/logo-html5-css3.png" alt="IT+ CODE LAB" />
 
               <div class="content"><router-link to="/cours-programmation/html-css">
                 <h3><a href="#">HTML et CSS</a></h3>
@@ -56,7 +56,7 @@
 
           <div class="col-lg-4 col-sm-6 col-md-6">
             <div class="agency-services-box" @click="goPage('/cours-programmation/javascript')">
-              <img src="../../../assets/img/courses/JavaScript-Logo.png" alt="IT+ ADVANCED TECHNOLOGY" />
+              <img src="../../../assets/img/courses/JavaScript-Logo.png" alt="IT+ CODE LAB" />
 
               <div class="content"><router-link to="/cours-programmation/javascript">
                 <h3><a href="#">Javascript</a></h3>
@@ -69,7 +69,7 @@
 
           <div class="col-lg-4 col-sm-6 col-md-6">
             <div class="agency-services-box" @click="goPage('/cours-programmation/mysql')">
-              <img src="../../../assets/img/courses/mysql.jpg" alt="IT+ ADVANCED TECHNOLOGY" />
+              <img src="../../../assets/img/courses/mysql.jpg" alt="IT+ CODE LAB" />
 
               <div class="content"><router-link to="/cours-programmation/mysql">
                 <h3><a href="#">MySQL</a></h3>
@@ -81,7 +81,7 @@
           </div>
           <div class="col-lg-4 col-sm-6 col-md-6">
             <div class="agency-services-box" @click="goPage('/cours-programmation/vue')">
-              <img src="../../../assets/img/courses/Logo-Vuejs.png" alt="IT+ ADVANCED TECHNOLOGY" />
+              <img src="../../../assets/img/courses/Logo-Vuejs.png" alt="IT+ CODE LAB" />
 
               <div class="content">
                 <router-link to="/cours-programmation/vue">
@@ -96,7 +96,7 @@
 
           <div class="col-lg-4 col-sm-6 col-md-6">
             <div class="agency-services-box" @click="goPage('/cours-programmation/angular')">
-              <img src="../../../assets/img/courses/2048px-Angular_full_color_logo.png" alt="IT+ ADVANCED TECHNOLOGY" />
+              <img src="../../../assets/img/courses/2048px-Angular_full_color_logo.png" alt="IT+ CODE LAB" />
 
               <div class="content"><router-link to="/cours-programmation/angular">
                 <h3><a href="#">Angular</a></h3>
@@ -109,7 +109,7 @@
 
           <div class="col-lg-4 col-sm-6 col-md-6">
             <div class="agency-services-box" @click="goPage('/cours-programmation/node')">
-              <img src="../../../assets/img/courses/1200px-Node.js_logo.png" alt="IT+ ADVANCED TECHNOLOGY" />
+              <img src="../../../assets/img/courses/1200px-Node.js_logo.png" alt="IT+ CODE LAB" />
 
               <div class="content"><router-link to="/cours-programmation/node">
                 <h3><a href="#">Node.js</a></h3>
@@ -126,7 +126,7 @@
             >
               <img
                 src="../../../assets/img/courses/1200px-Java_Logo.svg.png"
-                alt="IT+ ADVANCED TECHNOLOGY"
+                alt="IT+ CODE LAB"
               />
 
               <div class="content">
@@ -170,10 +170,10 @@ import { useRouter } from 'vue-router'
 
 const router = useRouter();
 useHead({
-  title: 'PROGRAMMATION - IT+ Advanced Technology',
+  title: 'PROGRAMMATION - IT+ CODE LAB',
   meta: [
     { name: 'description', content: 'Consultez la liste de nos formations en programmation | Cours en Formations en informatique à Djibouti' }
-    ,{ name: 'keywords', content: 'formation,school,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, school' }
+    ,{ name: 'keywords', content: 'formation,Code Lab,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, Code Lab' }
     ]
 })
 const goPage = (url:string) => {

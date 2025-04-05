@@ -51,7 +51,7 @@
 					</div>
 
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/nodejs.png" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/nodejs.png" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 				</div>
 
@@ -59,7 +59,7 @@
 
 				<div class="row align-items-center">
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/mean.jpg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/mean.jpg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 
 					<div class="col-lg-6 services-details">
@@ -132,7 +132,7 @@
 
 <script setup>
 useHead({
-  title: "NODE - IT+ Advanced Technology",
+  title: "NODE - IT+ CODE LAB",
   meta: [
     { name: "description", content: "Plongez dans le monde des backends et créez vos premières applications backends | Cours en Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,nodejs,backend,programmation,cours,Djibouti" }

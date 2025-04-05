@@ -51,7 +51,7 @@
 					</div>
 
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/linux1.jpeg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/linux1.jpeg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 				</div>
 
@@ -59,7 +59,7 @@
 
 				<div class="row align-items-center">
 					<div class="col-lg-6 services-details-image">
-						<img src="../../../../assets/img/courses/centos.jpeg" class="wow fadeInUp" alt="IT+ ADVANCED TECHNOLOGY">
+						<img src="../../../../assets/img/courses/centos.jpeg" class="wow fadeInUp" alt="IT+ CODE LAB">
 					</div>
 
 					<div class="col-lg-6 services-details">
@@ -139,7 +139,7 @@
 
 <script setup>
 useHead({
-  title: "Formation Linux - IT+ Advanced Technology",
+  title: "Formation Linux - IT+ CODE LAB",
   meta: [
     { name: "description", content: "Maîtrisez l'administration Linux et découvrez les bases des systèmes open-source avec notre formation pratique. | Cours en Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,linux,systèmes,cours,Djibouti" }
