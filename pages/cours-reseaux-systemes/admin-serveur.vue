@@ -142,7 +142,7 @@
 useHead({
   title: "Administration Windows Server - IT+ CODE LAB",
   meta: [
-    { name: "description", content: "Maîtrisez l'administration des serveurs Windows et optimisez la gestion des infrastructures IT. | Cours en Formations en informatique à Djibouti" },
+    { name: "description", content: "Maîtrisez l'administration des serveurs Windows et optimisez la gestion des infrastructures IT. | Code Lab | Cours et Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,windows,serveur,administration,cours,Djibouti" }
   ],
 });</script>

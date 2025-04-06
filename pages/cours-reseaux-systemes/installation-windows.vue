@@ -121,7 +121,7 @@
 useHead({
   title: "Installation et Configuration Windows - IT+ CODE LAB",
   meta: [
-    { name: "description", content: "Apprenez à installer, configurer et gérer les systèmes Windows pour une utilisation professionnelle. | Cours en Formations en informatique à Djibouti" },
+    { name: "description", content: "Apprenez à installer, configurer et gérer les systèmes Windows pour une utilisation professionnelle. | Code Lab | Cours et Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,windows,installation,systèmes,cours,Djibouti" }
   ],
 });</script>

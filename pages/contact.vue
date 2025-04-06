@@ -103,7 +103,7 @@ import { useHead } from '#imports'
 useHead({
   title: 'Contact - IT+ CODE LAB',
   meta: [
-    { name: 'description', content: 'Contactez IT+ CODE LAB pour en savoir plus sur nos formations et nos services en informatique. | Cours en Formations en informatique à Djibouti' }
+    { name: 'description', content: 'Contactez IT+ CODE LAB pour en savoir plus sur nos formations et nos services en informatique. | Code Lab | Cours et Formations en informatique à Djibouti' }
     ,{ name: 'keywords', content: 'formation,Code Lab,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, Code Lab' }
     ]
 })

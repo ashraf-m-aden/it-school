@@ -116,7 +116,7 @@
 useHead({
   title: "JAVA - IT+ CODE LAB",
   meta: [
-    { name: "description", content: "Maitrisez un des langages de programmation les plus populaires | Cours en Formations en informatique à Djibouti" },
+    { name: "description", content: "Maitrisez un des langages de programmation les plus populaires | Code Lab | Cours et Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,java,informatique,programmation,cours,Djibouti" }
   ],
 });

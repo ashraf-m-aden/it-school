@@ -117,7 +117,7 @@
 useHead({
   title: 'HTML - IT+ CODE LAB',
   meta: [
-    { name: 'description', content: 'Plongez dans les bases de la programmation avec notre formation en HTML et CSS | Cours en Formations en informatique à Djibouti' }
+    { name: 'description', content: 'Plongez dans les bases de la programmation avec notre formation en HTML et CSS | Code Lab | Cours et Formations en informatique à Djibouti' }
 	,{ name: 'keywords', content: 'formation,Code Lab,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, Code Lab' }
 	]
 })

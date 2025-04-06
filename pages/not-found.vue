@@ -26,7 +26,7 @@ import { useHead } from '#imports'
 useHead({
   title: 'OOPS 404 - IT+ CODE LAB',
   meta: [
-    { name: 'description', content: 'OOPS 404 | Cours en Formations en informatique à Djibouti' }
+    { name: 'description', content: 'OOPS 404 | Code Lab | Cours et Formations en informatique à Djibouti' }
   ]
 })
 </script>

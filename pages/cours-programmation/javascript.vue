@@ -79,7 +79,7 @@ import { useHead } from '#imports'
 useHead({
   title: 'JAVASCRIPT - IT+ CODE LAB',
   meta: [
-    { name: 'description', content: 'Apprenez les bases du Javascript et élargissez vos horizons! | Cours en Formations en informatique à Djibouti' }
+    { name: 'description', content: 'Apprenez les bases du Javascript et élargissez vos horizons! | Code Lab | Cours et Formations en informatique à Djibouti' }
 	,{ name: 'keywords', content: 'formation,Code Lab,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, Code Lab' }
 	]
 })

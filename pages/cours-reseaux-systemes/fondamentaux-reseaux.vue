@@ -141,7 +141,7 @@
 useHead({
   title: "Fondamentaux des Réseaux - IT+ CODE LAB",
   meta: [
-    { name: "description", content: "Apprenez les bases des réseaux informatiques : protocoles, infrastructures et configuration pour bien débuter. | Cours en Formations en informatique à Djibouti" },
+    { name: "description", content: "Apprenez les bases des réseaux informatiques : protocoles, infrastructures et configuration pour bien débuter. | Code Lab | Cours et Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,réseaux,fondamentaux,informatique,cours,Djibouti" }
   ],
 });</script>

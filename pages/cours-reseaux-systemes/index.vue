@@ -251,7 +251,7 @@ const goPage = (url:any) => {
 useHead({
   title: "RESEAUX - IT+ CODE LAB",
   meta: [
-    { name: "description", content: "La liste de nos formations en réseaux informatiques | Cours en Formations en informatique à Djibouti" },
+    { name: "description", content: "La liste de nos formations en réseaux informatiques | Code Lab | Cours et Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,réseaux,informatique,cours,Djibouti" }
   ],
 });
